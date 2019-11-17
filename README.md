@@ -1,6 +1,6 @@
 <h1>MvcBuilder</h1>
-<p>Jar executable pour build l'arborescence MVC</p>
-<p>quand on clique sur le jarfile sa crée l'arborescence suivante</p>
+<p>Jar executable for building MVC tree</p>
+<p>When you execute the jarfile, it create the tree ↓</p>
 <ul>
 	<li>MVC</li>
 	<ul>
