@@ -6,12 +6,17 @@ import java.io.IOException;
 public class main {
 	
 	public static void main(String[] args) {
-		File dirModele = new File("./modele");
-		File dirVue = new File("./vue");
-		File dirPublic = new File("./public");
-		File dirController = new File("./controller");
-		File dirIncludes = new File("./includes");
-		File fileRouteur = new File("./index.php");
+		File dirMVC = new File("./MVC");
+		File dirModele = new File("./MVC/modele");
+		File dirVue = new File("./MVC/vue");
+		File dirPublic = new File("./MVC/public");
+		File dirController = new File("./MVC/controller");
+		File dirIncludes = new File("./MVC/includes");
+		File fileRouteur = new File("./MVC/index.php");
+		
+		if(!dirMVC.exists()) {
+			dirMVC.mkdir();
+		}
 		
 		if(!dirModele.exists()) {
 			dirModele.mkdir();
