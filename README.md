@@ -8,6 +8,17 @@
 		<li>modele</li>
 		<li>vue</li>
 		<li>public</li>
+		<ul>
+			<li>css</li>
+			<ul>
+				<li>style.css</li>
+			</ul>
+			<li>js</li>
+			<ul>
+				<li>file.js</li>
+			</ul>
+			<li>file</li>
+		</ul>
 		<li>index.php</li>
 	</ul>
 </ul>

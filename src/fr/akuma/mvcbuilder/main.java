@@ -16,6 +16,7 @@ public class main {
 		File dirPublicCSS = new File("./MVC/public/css");
 		File filePublicCSS = new File("./MVC/public/css/style.css");
 		File dirPublicJS = new File("./MVC/public/js");
+		File filePublicJS = new File("./MVC/public/js/file.js");
 		File dirPublicFile = new File("./MVC/public/file");
 		File dirController = new File("./MVC/controller");
 		File dirIncludes = new File("./MVC/includes");
@@ -36,6 +37,7 @@ public class main {
 		
 		allFile.add(filePublicCSS);
 		allFile.add(fileRouteur);
+		allFile.add(filePublicJS);
 		
 		for(File f : allDir){
 			DirAndFileBuilder.createDir(f);
