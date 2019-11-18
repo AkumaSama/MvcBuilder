@@ -19,6 +19,7 @@
 				<li>file.js</li>
 			</ul>
 			<li>file</li>
+			<li>image</li>
 		</ul>
 		<li>index.php</li>
 	</ul>
