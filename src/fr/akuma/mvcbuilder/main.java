@@ -21,6 +21,9 @@ public class main {
 		File dirController = new File("./MVC/controller");
 		File dirIncludes = new File("./MVC/includes");
 		File fileRouteur = new File("./MVC/index.php");
+		File fileVue = new File("./MVC/vue/V_sample.php");
+		File fileModele = new File("./MVC/mdoele/M_sample.php");
+		File fileController = new File("./MVC/controller/C_sample.php");
 		
 		ArrayList<File> allDir = new ArrayList<File>();
 		ArrayList<File> allFile = new ArrayList<File>();
@@ -38,6 +41,9 @@ public class main {
 		allFile.add(filePublicCSS);
 		allFile.add(fileRouteur);
 		allFile.add(filePublicJS);
+		allFile.add(fileVue);
+		allFile.add(fileModele);
+		allFile.add(fileController);
 		
 		for(File f : allDir){
 			DirAndFileBuilder.createDir(f);
