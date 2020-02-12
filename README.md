@@ -6,8 +6,17 @@
 	<li>MVC</li>
 	<ul>
 		<li>controller</li>
+		<ul>
+			<li>C_sample.php</li>
+		</ul>
 		<li>modele</li>
+		<ul>
+			<li>M_sample.php</li>
+		</ul>
 		<li>vue</li>
+		<ul>
+			<li>V_sample.php</li>
+		</ul>
 		<li>public</li>
 		<ul>
 			<li>css</li>
